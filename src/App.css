@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #e4e8ef;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,68 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(250, 244, 237);
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+}
+
+.App {
+  width: 800px;
+  
+  
+}
+
+.lists {
+  display: flex;
+  padding: 15px;
+  border: 2px solid rgb(0, 0, 0);
+  margin-top: 15px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: bisque;
+}
+
+.int1 {
+  width: 100%;
+  padding: 5px 15px;
+  margin: 5px 0;
+  border: 1px solid rgb(2, 9, 9);
+  background-color: bisque;
+}
+
+.int2 {
+  width: 100%;
+  padding: 5px 15px;
+  margin: 5px 0;
+  border: 1px solid rgb(1, 8, 5);
+  background-color: bisque;
+}
+
+.select {
+  justify-content: left;
+  padding: 5px;
+  margin-right: 5px;
+  background-color: bisque;
+}
+
+.btn1 {
+  width: auto;
+  padding: 10px;
+  margin-right: 5px;
+}
+
+.btn2 {
+  margin-left: 700px;
+  
+  padding: 10px;
+  margin-right: 5px;
 }
